@@ -1,8 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import Router from './routes/Routes';
+import "../src/assets/css/main.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <h2>Bomberos</h2>
+    <Router/>
   </React.StrictMode>,
 )
