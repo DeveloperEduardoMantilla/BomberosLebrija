@@ -12,6 +12,8 @@ import PaymentsForm from '../pages/PaymentsForm';
 import ServicesForm from '../pages/ServicesForm';
 import Directory from '../pages/Directory';
 import Normativity from '../pages/Normativity';
+import ViewNotice from "../pages/ViewNotice";
+import RequestPqrds from "../pages/RequestPqrds";
 
 const Router = () =>{
     return(
@@ -29,6 +31,8 @@ const Router = () =>{
             <Route path="/servicesform" element={<ServicesForm/>}/>
             <Route path="/directory" element={<Directory/>}/>
             <Route path='/normativity' element={<Normativity/>}/>
+            <Route path='/viewnotice' element={<ViewNotice/>}/>
+            <Route path='/requestPqrds' element={<RequestPqrds/>}/>            
         </Routes>
         <Footer/>
     </BrowserRouter>
